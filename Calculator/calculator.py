@@ -52,8 +52,8 @@ for (text, row, col) in butonlar:
         btn = ctk.CTkButton(app, text=text, font=("Helvetica", 24), width=70, height=60, 
                             command=lambda t=text: buton_tikla(t))
     
-    # Butonu ekrana yerleştir
+
     btn.grid(row=row, column=col, padx=5, pady=5)
 
-# Uygulamayı başlat (Döngüyü çalıştır)
+)
 app.mainloop()
